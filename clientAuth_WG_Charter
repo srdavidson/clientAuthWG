@@ -97,13 +97,29 @@ No organization may hold voting membership in more than one class at the same ti
 ETSI EN 319 411-1, which includes normative references to ETSI EN 319 401 (the latest version of the referenced ETSI documents should be applied). The audit report MUST report on the operational effectiveness of controls for a historic period of at least 60 days; no more than 27 months may have elapsed since the beginning of the reported-on period and no more than 15 months since the end of it; and the report MUST have been prepared by a natural or legal person duly authorized or licensed to conduct audits according to the relevant criteria or scheme.
    (iii) It actively issues Certificates asserting id-kp-clientAuth that are accepted under the Client Authentication Trust Program of at least one Certificate Consumer Member.
 
- 2. Certificate Consumer: [specify]
+ 2. Certificate Consumer: The defining characteristic of a Certificate Consumer is that it decides, on behalf of relying parties other than itself, which CAs may be relied upon for client authentication, and publishes that decision. A party that merely accepts client certificates under trust decisions made by someone else is not a Certificate Consumer. A Certificate Consumer eligible for voting membership MUST meet all of the following criteria:
 
-(b) Applicants must supply the following information:
-•            [specify]
+   (i) It produces and maintains software, or operates a service, that authenticates remote parties by validating Certificates asserting `id-kp-clientAuth`, and that software or service is generally available to the public, whether commercially or as open source. The qualifying product or service MUST have been generally available for at least twelve (12) months before the date of application.
+   (ii) The qualifying product or service is relied upon by organizations that are not Affiliated with the Applicant, such that the Applicant's trust decisions affect parties other than itself and its Affiliates.
+   (iii) It establishes and maintains a Client Authentication Trust Program, meaning a documented set of policies by which it determines which CAs, including CAs with which it is not Affiliated, are accepted by the qualifying product or service for client authentication.
 
-Applicants that qualify as Certificate Issuers must supply the following additional information:
-•            [specify]
+(b) Applicants must supply the following information: An Applicant SHALL supply:
+
+   * confirmation of the single class under which it applies;
+   * the organization name as it is to appear on the Forum website and in Forum documents;
+   * the URL of its main website;
+   * names and email addresses of the designated representatives who will participate;
+   * emergency contact information for security issues related to certificate trust;
+   * disclosure of all Affiliations with any other Member or Applicant of this Working Group.
+
+A Certificate Issuer Applicant SHALL additionally supply the URL of its current qualifying audit report, and references to issued end entity Certificates demonstrating acceptance under a Certificate Consumer Member's Client Authentication Trust Program.
+
+A Certificate Consumer Applicant SHALL additionally supply:
+
+   * the name of, and public URL for, the qualifying product or service, and evidence of the date from which it has been generally available;
+   * the public URL of its Client Authentication Trust Program, and evidence of the date from which it has been published;
+   * the list of CAs currently accepted under that program, including at least one with which the Applicant is not Affiliated;
+   * evidence of reliance by unaffiliated organizations, which may take the form of published customer or user references, package or platform distribution statistics, publicly documented deployments, or an attestation from an officer of the Applicant stating the number of unaffiliated organizations relying on the qualifying product or service.
 
 (c) Approval process:
 An Applicant SHALL become a Member once the CACWG has determined by consensus among the Members during a CACWG Meeting or Teleconference that the Applicant meets all of the requirements above or, upon the request of any Member of the CACWG, by a Ballot among Members of the CACWG. Acceptance by consensus shall be determined, or a Ballot of the Members shall be held, after the Applicant indicates that it has presented all information required above, has responded to all follow-up questions from the CACWG, and has complied with the requirements of Bylaw 5.5.
@@ -118,15 +134,26 @@ The CACWG shall include Interested Parties, Associate Members, and Probationary 
 
 Members may resign from the Working Group at any time. Resignation does not prevent a Member from potentially having continuing obligations, under the Forum's IPR Policy or any other document.
 
-(a) Certificate Consumer:
-[specify]
+(a) Certificate Consumer: A Certificate Consumer Member's membership may be suspended if any of the following become true:
+
+   * it stops providing support for its qualifying product or service;
+   * its qualifying product or service ceases to authenticate remote parties using Certificates asserting id-kp-clientAuth;
+   * it ceases to maintain or publish a conforming Client Authentication Trust Program, or that program ceases to accept any CA with which the Member is not Affiliated;
+   * its trust decisions cease to be made independently within the meaning of Section 3.1.
 
 (b) Certificate Issuer: A Certificate Issuer's membership may be suspended if any of the following become true:
-[specify]
+
+   * it fails to perform and disclose its membership-qualifying audit and fifteen (15) months have elapsed since the end of the audit period of its last successful qualifying audit;
+   * its qualifying audit is revoked, rescinded or withdrawn;
+   * it ceases to maintain or publish a conforming Client Authentication Trust Program, or that program ceases to accept any CA with which the Member is not Affiliated;
+   * it ceases to issue Certificates asserting id-kp-clientAuth, or those Certificates cease to be accepted under any Certificate Consumer Member's Client Authentication Trust Program;
+   * its trust decisions cease to be made independently within the meaning of Section 3.1.
 
 Any Voting Member who believes any of the above circumstances is true of any other Voting Member, that Voting Member may report it on the Working Group Public Mail List. The Working Group Chair will then investigate, including asking the reported Voting Member for an explanation or appropriate documentation. If evidence of continued qualification for membership is not forthcoming from the reported Voting Member within five (5) working days, the Working Group Chair will announce that such Voting Member is suspended and has become a Probationary Member, such announcement to include the clause(s) from the above list under which the suspension has been made.
 
 A Probationary Member who believes it has now re-met the membership criteria under the relevant clauses shall post evidence to the Working Group Public Mail List. The Working Group Chair will examine the evidence, and if appropriate, reinstate the member to voting status, by public announcement.
+
+Where the Chair's determination is disputed by the affected Member or by any other Member, the question SHALL be decided by ballot of the Working Group under Section 5.1.
 
 A Probationary Member may participate in this Working Group and Forum Meetings, Teleconferences, and on this Working Group and the Forum's discussion lists as set forth in the Bylaws.
 
