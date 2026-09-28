@@ -28,9 +28,10 @@ The purpose of the CACWG is to close that gap. The Working Group will first esta
 The Working Group will leverage existing work rather than duplicate it. Validation methods in the TLS Baseline Requirements and the S/MIME Baseline Requirements, the certificate profile conventions established by both, and the identity frameworks used by ETSI EN 319 411-1 and by sectoral schemes such as the ASC X9 PKI are all expected to inform the Working Group's deliverables. The Working Group will coordinate with the Server Certificate Working Group and the S/MIME Certificate Working Group so that requirements do not conflict or overlap.
 
    1.2 **Success Criteria**
-     * Prepare a ballot to create guidelines for the Client Authentication Certificate Working Group.
-     * Order to advance to Final Guidelines or Final Maintenance Guidelines, each specification is expected to have [e.g., at least x independent implementations of each feature defined in the specification].
-     * Work with Forum to have guidelines for the Client Authentication Certificate Working Group be approved and adopted.
+* Publication of a use case and trust model report that identifies the client authentication use cases requiring a shared trust framework, and the relying party communities that would consume certificates issued under it.
+* Prepare a ballot to create guidelines for the Client Authentication Certificate Working Group.
+* In order to advance to Final Guidelines or Final Maintenance Guidelines, each specification is expected to have at least two independent implementations of each feature defined in the specification, demonstrated by certificates issued by unaffiliated Certificate Issuer Members and treated as valid by at least one Certificate Consumer Member.
+* Work with the Forum to have guidelines for the Client Authentication Certificate Working Group be approved and adopted.
 
    1.3 **Minimum Requirements**
 Each WG must meet the following minimum requirements:
