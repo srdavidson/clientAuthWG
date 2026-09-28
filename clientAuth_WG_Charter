@@ -12,7 +12,7 @@ The **mission** of the Client Authentication Certificate Working Group (the "CAC
 
 **Type(s) of Voting Members Eligible to Participate**: Certificate Issuers, Certificate Consumers.
 
-**Voting Structure for WG**: Two-thirds or more of the votes cast by voting Members must be in favor of a ballot for it to be adopted. Quorum is the average number of Member organizations, cumulative and regardless of class, that have participated in the previous three (3) Meetings or Teleconferences, not counting subcommittee meetings. No ballots shall be adopted until at least three (3) Meetings have occurred and quorum has been determined. A Member admitted after a ballot has been proposed may not vote on that ballot.
+**Voting Structure for WG**: Two-thirds or more of the votes cast by voting Members must be in favor of a ballot for it to be adopted. 
 
 1. **Working Group Scope**
 
@@ -83,6 +83,7 @@ The CACWG may work on related deliverables and non-normative documents, such as:
    2.3 **Milestones**
 
 The initial milestones are as follows. Such milestones may be modified or replaced by consensus of the Working Group members.
+
 1. Within three months of chartering: confirmation of the initial membership list, election of Chair and Vice Chair, and agreement of a work plan addressing the following milestones.
 2. Publication of the use case and trust model report, including a determination of which use cases the Baseline Requirements will address.
 3. Agreement of the certificate profile and of the identifier types to be supported.
@@ -92,6 +93,7 @@ The initial milestones are as follows. Such milestones may be modified or replac
 3. **Membership**
 
    3.1 **Membership Criteria**
+
 The CACWG shall have two classes of voting membership, Certificate Issuers and Certificate Consumers, which shall have equal standing in the decisions of the Working Group. The Working Group shall also include Interested Parties, Associate Members, and Probationary Members, as defined in the Bylaws.
 
 No organization may hold voting membership in more than one class at the same time. An Applicant that satisfies the criteria for both classes SHALL indicate the single class under which it applies, and may change class only by re-applying under Section 3.5.
@@ -184,7 +186,8 @@ The CACWG will coordinate with, and seek guidance from, the following other CAB 
 
    4.2 **External Groups**
 
-This Working Group may coordinate with, and seek guidance from, the following outside organizations:
+The CACWG may coordinate with, and seek guidance from, the following outside organizations:
+
 * IETF, in particular working groups concerned with TLS, PKIX successors, and certificate management protocols.
 * The WebTrust Task Force and the Accredited Conformity Assessment Bodies' Council (ACAB'c), regarding audit criteria applicable to client authentication certificates.
 * ETSI Technical Committee on Electronic Signatures and Trust Infrastructures (TC ESI).
@@ -204,6 +207,8 @@ Most Working Group teleconferences will focus on discussion of particular specif
 The CACWG  will seek to make decisions when there is consensus and with due process. The expectation is that, typically, the Working Group Chair or other participant makes an initial proposal, which is then refined in discussion with the Working Group participants, and consensus emerges with little formal voting being required. However, if a decision is necessary for timely progress, but consensus is not achieved after careful consideration of the range of views presented, the Working Group Chair should put the question out for voting within the WG (using email and/or web-based survey techniques) according to Section 2 (Forum Membership and Voting) of the Forum Bylaws and record a decision, along with any objections. The matter should then be considered resolved unless and until new information becomes available.
 
 Quorum is the average number of Member organizations (cumulative, regardless of class) that have participated in the previous three (3) CACWG Meetings or Teleconferences, not counting subcommittee meetings thereof. No Ballots shall be adopted until at least three (3) meetings have occurred and quorum has been determined.
+
+A Member admitted after a ballot has been proposed may not vote on that ballot.
 
 The CACWG may establish subcommittees, by formal ballot, to address any of the CACWG's business as specified in the ballot. Subcommittees are open to all CACWG Members and must post all agendas and minutes on a public mail list.
 
