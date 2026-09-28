@@ -85,7 +85,7 @@ The initial milestones for the [Final or Final Maintenance] Guidelines are as fo
 3. **Membership**
 
    3.1 **Membership Criteria**
-This Working Group shall have the following categories of membership:
+The CACWG shall have two classes of voting membership, Certificate Issuers and Certificate Consumers, together with Interested Parties, Associate Members, and Probationary Members as defined in the Bylaws. shall have the following categories of membership:
 [specify]
 
 Applicants must meet the following criteria:
@@ -117,7 +117,7 @@ Members may resign from the Working Group at any time. Resignation does not prev
 (a) Certificate Consumer:
 [specify]
 
-(b) Certificate Issuer:
+(b) Certificate Issuer: A Certificate Issuer's membership may be suspended if any of the following become true:
 [specify]
 
 Any Voting Member who believes any of the above circumstances is true of any other Voting Member, that Voting Member may report it on the Working Group Public Mail List. The Working Group Chair will then investigate, including asking the reported Voting Member for an explanation or appropriate documentation. If evidence of continued qualification for membership is not forthcoming from the reported Voting Member within five (5) working days, the Working Group Chair will announce that such Voting Member is suspended and has become a Probationary Member, such announcement to include the clause(s) from the above list under which the suspension has been made.
@@ -135,15 +135,20 @@ Applicants shall supply information and follow a process to become members.
 4. **Dependencies and Liaisons**
 
    4.1 **CAB Forum Groups**
-This Working Group will coordinate with, and seek guidance from, the following other CAB Forum Working Groups (if applicable):
-[specify]
-[specify]
+The CACWG will coordinate with, and seek guidance from, the following other CAB Forum Working Groups:
+
+* Server Certificate Working Group, regarding the separation of Extended Key Usages, the transition of existing deployments, and the reuse of validation methods and certificate profile conventions.
+* S/MIME Certificate Working Group, regarding certificates that serve both client authentication and email protection purposes, and regarding the validation of natural person and legal entity identity.
+* Network Security Working Group, regarding CA operational and network security requirements.
+* Forum Infrastructure Subcommittee, regarding mailing lists, wiki, and publication of documents.
 
    4.2 **External Groups**
-This Working Group will coordinate with, and seek guidance from, the following outside organizations:
-[IETF?]
-[W3C?]
-[specify]
+This Working Group may coordinate with, and seek guidance from, the following outside organizations:
+* IETF, in particular working groups concerned with TLS, PKIX successors, and certificate management protocols.
+* The WebTrust Task Force and the Accredited Conformity Assessment Bodies' Council (ACAB'c), regarding audit criteria applicable to client authentication certificates.
+* ETSI Technical Committee on Electronic Signatures and Trust Infrastructures (TC ESI).
+* Accredited Standards Committee X9, regarding financial sector client authentication.
+* Such other organizations, including operators of sectoral and device identity trust frameworks, as the Working Group determines to be relevant.
 
 5. **Participation**
 
