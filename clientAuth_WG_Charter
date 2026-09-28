@@ -54,17 +54,26 @@ The following are out of scope for the CACWG:
 
    2.1 **Guidelines**
 The Working Group will deliver the following:
-[Draft of guidelines for WG review]
-[Draft of ballot for approval of guidelines]
-[Ballot approval of guidelines]
-[Final or Final Maintenance] Guidelines:
-[describe]
-[describe]
+
+* Draft of guidelines for WG review
+* Draft of ballot for approval of guidelines
+* Ballot approval of guidelines
+
+Final Guidelines:
+
+* **Baseline Requirements for the Issuance and Management of Publicly-Trusted Client Authentication Certificates**, addressing at a minimum:
+  * the identifiers that may be asserted as the Subject of a client authentication certificate, and the methods by which a CA verifies the Applicant's control of, or entitlement to, each such identifier;
+  * certificate profiles for Subscriber certificates, Issuing CA certificates, and Root CA certificates, including which extensions are required, permitted, and prohibited;
+  * key management, certificate lifecycle, validity periods, and revocation and status services, taking account of relying party behaviour in client authentication;
+  * CA operational practices, physical and logical security, incident response, and disclosure, subject to coordination with other Forum CWGs to ensure consistency and avoid redundancy.
 
    2.2 **Other Deliverables**
-The Working Group may work on related deliverables and non-normative documents, such as:
-[describe]
-[describe]
+The CACWG may work on related deliverables and non-normative documents, such as:
+
+* A use case and trust model report, as described in Section 1.2, to be completed before normative drafting begins.
+* Recommendations to the relevant audit scheme owners, including the WebTrust Task Force and the ACAB'c, regarding audit criteria suitable for client authentication certificates, and a proposed timetable for their availability.
+* Guidance on the migration of existing deployments away from certificates asserting multiple Extended Key Usages.
+* Liaison statements and non-normative commentary directed to other Forum Working Groups and to external organizations.
 
    2.3 **Milestones**
 The initial milestones for the [Final or Final Maintenance] Guidelines are as follows. Such milestones may be modified or replaced by consensus of the Working Group members.
