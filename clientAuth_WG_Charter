@@ -92,12 +92,10 @@ No organization may hold voting membership in more than one class at the same ti
 
  1. Certificate Issuer: A Certificate Issuer eligible for voting membership MUST meet all of the following criteria:
 
-(i) It operates a Certification Authority that issues Certificates asserting id-kp-clientAuth to Subscribers with which it is not Affiliated.
-
-(ii) It has a publicly available audit report or attestation statement, based upon publicly available audit criteria or an attestation scheme relevant to the issuance of client authentication certificates. This includes, but is not limited to: WebTrust for CAs v.2.0 or newer; or
+   (i) It operates a Certification Authority that issues Certificates asserting id-kp-clientAuth to Subscribers with which it is not Affiliated.
+   (ii) It has a publicly available audit report or attestation statement, based upon publicly available audit criteria or an attestation scheme relevant to the issuance of client authentication certificates. This includes, but is not limited to: WebTrust for CAs v.2.0 or newer; or
 ETSI EN 319 411-1, which includes normative references to ETSI EN 319 401 (the latest version of the referenced ETSI documents should be applied). The audit report MUST report on the operational effectiveness of controls for a historic period of at least 60 days; no more than 27 months may have elapsed since the beginning of the reported-on period and no more than 15 months since the end of it; and the report MUST have been prepared by a natural or legal person duly authorized or licensed to conduct audits according to the relevant criteria or scheme.
-
-(iii) It actively issues Certificates asserting id-kp-clientAuth that are accepted under the Client Authentication Trust Program of at least one Certificate Consumer Member.
+   (iii) It actively issues Certificates asserting id-kp-clientAuth that are accepted under the Client Authentication Trust Program of at least one Certificate Consumer Member.
 
  2. Certificate Consumer: [specify]
 
