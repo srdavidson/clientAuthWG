@@ -34,11 +34,11 @@ The Working Group will leverage existing work rather than duplicate it. Validati
 * Work with the Forum to have guidelines for the Client Authentication Certificate Working Group be approved and adopted.
 
    1.3 **Minimum Requirements**
-Each WG must meet the following minimum requirements:
-     * Comply with all applicable laws, rules and regulations.
-     * Comply with the CAB Forum IPR Policy and Bylaws.
-     * Follow RFC 3647 and other technical requirements regarding the preparation of minutes and the use of public mailing lists.
-     * [Any other requirements applicable to this specific WG?]
+The CACWG will seek to:
+* Comply with all applicable laws, rules and regulations.
+* Comply with the CAB Forum IPR Policy and Bylaws.
+* Follow RFC 3647 and other technical requirements regarding the preparation of minutes and the use of public mailing lists.
+* Give due consideration to the security, stability and resiliency of existing deployments, and avoid unintended adverse effects on use cases that are outside the scope of this Charter.
 
    1.4 **Out of Scope**
 [What is out of scope for this WG, what are items that this WG will not work on? For example, solving world hunger, fixing global warming, boiling the ocean]
