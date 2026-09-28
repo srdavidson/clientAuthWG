@@ -41,7 +41,14 @@ The CACWG will seek to:
 * Give due consideration to the security, stability and resiliency of existing deployments, and avoid unintended adverse effects on use cases that are outside the scope of this Charter.
 
    1.4 **Out of Scope**
-[What is out of scope for this WG, what are items that this WG will not work on? For example, solving world hunger, fixing global warming, boiling the ocean]
+The following are out of scope for the CACWG:
+
+* Certificates asserting id-kp-serverAuth, which are the responsibility of the Server Certificate Working Group.
+* Certificates asserting id-kp-emailProtection, which are the responsibility of the S/MIME Certificate Working Group. Where a use case involves both client authentication and email protection, the CACWG will coordinate with the SMCWG to determine the appropriate venue rather than issue competing requirements.
+* Certificates asserting id-kp-codeSigning or id-kp-timeStamping.
+* Authorization, entitlement, and access control decisions made by a relying party after successful authentication.
+* The design of authentication protocols, which is the responsibility of the IETF and other standards bodies.
+* Root program policy, inclusion criteria, and trust store operation, which remain matters for the operators of those programs.
 
 2. **Summary of Work**
 
