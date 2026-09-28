@@ -19,7 +19,13 @@ Optional: There is a waiting period of at least six (6) months for a Certificate
 1. **Working Group Scope**
 
    1.1 **Summary of Working Group Goals and Objectives**
-[Describe goals and objectives of WG. What is the purpose of the WG, what do you hope to accomplish, why is this group important/necessary? Will this group leverage any existing work or collaborate with other groups?]
+Client authentication using X.509 certificates is long established in enterprise and bilateral deployments, where the relying party configures its own trust anchors and validation rules. It is comparatively undefined where the relying party and the Subscriber are unaffiliated and no such bilateral arrangement is practical, and where the relying party therefore depends on a certificate issued by a third party CA under a shared trust anchor.
+
+Until recently, this gap was partly obscured because certificates issued under the TLS Baseline Requirements commonly asserted both id-kp-serverAuth and id-kp-clientAuth. Ballot SC-081v3 and the corresponding root program policies are removing that entanglement in favour of single-purpose hierarchies. That direction is not revisited by this Charter. Its consequence, however, is that certificates used for client authentication between unaffiliated parties will be issued outside any Forum guideline, with no agreed validation practices, no certificate profile, and no audit scheme addressed to their particular risks.
+
+The purpose of the CACWG is to close that gap. The Working Group will first establish, and document, which client authentication use cases genuinely require a shared trust framework, distinguishing them from those properly served by private PKI. It will then develop requirements sufficient to make such certificates interoperable and their issuance auditable. A later goal may include the creation of voluntary baseline targets for private PKI that wish to pursue audit.
+
+The Working Group will leverage existing work rather than duplicate it. Validation methods in the TLS Baseline Requirements and the S/MIME Baseline Requirements, the certificate profile conventions established by both, and the identity frameworks used by ETSI EN 319 411-1 and by sectoral schemes such as the ASC X9 PKI are all expected to inform the Working Group's deliverables. The Working Group will coordinate with the Server Certificate Working Group and the S/MIME Certificate Working Group so that requirements do not conflict or overlap.
 
    1.2 **Success Criteria**
      * Prepare a ballot to create guidelines for the Client Authentication Certificate Working Group.
