@@ -76,11 +76,12 @@ The CACWG may work on related deliverables and non-normative documents, such as:
 * Liaison statements and non-normative commentary directed to other Forum Working Groups and to external organizations.
 
    2.3 **Milestones**
-The initial milestones for the [Final or Final Maintenance] Guidelines are as follows. Such milestones may be modified or replaced by consensus of the Working Group members.
-[developmental milestone 1]
-[developmental milestone 2]
-[developmental milestone 3]
-[developmental milestone 4]
+The initial milestones are as follows. Such milestones may be modified or replaced by consensus of the Working Group members.
+1. Within three months of chartering: confirmation of the initial membership list, election of Chair and Vice Chair, and agreement of a work plan.
+2. Publication of the use case and trust model report, including a determination of which use cases the Baseline Requirements will address.
+3. Agreement of the certificate profile and of the identifier types to be supported.
+4. Agreement of the validation requirements for each supported identifier type.
+5. First complete Draft Guideline circulated for Working Group review.
 
 3. **Membership**
 
