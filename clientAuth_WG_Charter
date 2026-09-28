@@ -17,6 +17,7 @@ The **mission** of the Client Authentication Certificate Working Group (the "CAC
 1. **Working Group Scope**
 
    1.1 **Summary of Working Group Goals and Objectives**
+
 Client authentication using X.509 certificates is long established in enterprise and bilateral deployments, where the relying party configures its own trust anchors and validation rules. It is comparatively undefined where the relying party and the Subscriber are unaffiliated and no such bilateral arrangement is practical, and where the relying party therefore depends on a certificate issued by a third party CA under a shared trust anchor.
 
 Until recently, this gap was partly obscured because certificates issued under the TLS Baseline Requirements commonly asserted both id-kp-serverAuth and id-kp-clientAuth. Ballot SC-081v3 and the corresponding root program policies are removing that entanglement in favour of single-purpose hierarchies. That direction is not revisited by this Charter. Its consequence, however, is that certificates used for client authentication between unaffiliated parties will be issued outside any Forum guideline, with no agreed validation practices, no certificate profile, and no audit scheme addressed to their particular risks.
@@ -26,19 +27,23 @@ The purpose of the CACWG is to close that gap. The Working Group will first esta
 The Working Group will leverage existing work rather than duplicate it. Validation methods in the TLS Baseline Requirements and the S/MIME Baseline Requirements, the certificate profile conventions established by both, and the identity frameworks used by ETSI EN 319 411-1 and by sectoral schemes such as the ASC X9 PKI are all expected to inform the Working Group's deliverables. The Working Group will coordinate with the Server Certificate Working Group and the S/MIME Certificate Working Group so that requirements do not conflict or overlap.
 
    1.2 **Success Criteria**
+
 * Publication of a use case and trust model report that identifies the client authentication use cases requiring a shared trust framework, and the relying party communities that would consume certificates issued under it.
 * Prepare a ballot to create guidelines for the Client Authentication Certificate Working Group.
 * In order to advance to Final Guidelines or Final Maintenance Guidelines, each specification is expected to have at least two independent implementations of each feature defined in the specification, demonstrated by certificates issued by unaffiliated Certificate Issuer Members and treated as valid by at least one Certificate Consumer Member.
 * Work with the Forum to have guidelines for the Client Authentication Certificate Working Group be approved and adopted.
 
    1.3 **Minimum Requirements**
+
 The CACWG will seek to:
+
 * Comply with all applicable laws, rules and regulations.
 * Comply with the CAB Forum IPR Policy and Bylaws.
 * Follow RFC 3647 and other technical requirements regarding the preparation of minutes and the use of public mailing lists.
 * Give due consideration to the security, stability and resiliency of existing deployments, and avoid unintended adverse effects on use cases that are outside the scope of this Charter.
 
    1.4 **Out of Scope**
+
 The following are out of scope for the CACWG:
 
 * Certificates asserting id-kp-serverAuth, which are the responsibility of the Server Certificate Working Group.
@@ -51,6 +56,7 @@ The following are out of scope for the CACWG:
 2. **Summary of Work**
 
    2.1 **Guidelines**
+
 The Working Group will deliver the following:
 
 * Draft of guidelines for WG review
@@ -66,6 +72,7 @@ Final Guidelines:
   * CA operational practices, physical and logical security, incident response, and disclosure, subject to coordination with other Forum CWGs to ensure consistency and avoid redundancy.
 
    2.2 **Other Deliverables**
+
 The CACWG may work on related deliverables and non-normative documents, such as:
 
 * A use case and trust model report, as described in Section 1.2, to be completed before normative drafting begins.
@@ -74,6 +81,7 @@ The CACWG may work on related deliverables and non-normative documents, such as:
 * Liaison statements and non-normative commentary directed to other Forum Working Groups and to external organizations.
 
    2.3 **Milestones**
+
 The initial milestones are as follows. Such milestones may be modified or replaced by consensus of the Working Group members.
 1. Within three months of chartering: confirmation of the initial membership list, election of Chair and Vice Chair, and agreement of a work plan addressing the following milestones.
 2. Publication of the use case and trust model report, including a determination of which use cases the Baseline Requirements will address.
@@ -121,8 +129,7 @@ A Certificate Consumer Applicant SHALL additionally supply:
    * the list of CAs currently accepted under that program, including at least one with which the Applicant is not Affiliated;
    * evidence of reliance by unaffiliated organizations, which may take the form of published customer or user references, package or platform distribution statistics, publicly documented deployments, or an attestation from an officer of the Applicant stating the number of unaffiliated organizations relying on the qualifying product or service.
 
-(c) Approval process:
-An Applicant SHALL become a Member once the CACWG has determined by consensus among the Members during a CACWG Meeting or Teleconference that the Applicant meets all of the requirements above or, upon the request of any Member of the CACWG, by a Ballot among Members of the CACWG. Acceptance by consensus shall be determined, or a Ballot of the Members shall be held, after the Applicant indicates that it has presented all information required above, has responded to all follow-up questions from the CACWG, and has complied with the requirements of Bylaw 5.5.
+(c) Approval process: An Applicant SHALL become a Member once the CACWG has determined by consensus among the Members during a CACWG Meeting or Teleconference that the Applicant meets all of the requirements above or, upon the request of any Member of the CACWG, by a Ballot among Members of the CACWG. Acceptance by consensus shall be determined, or a Ballot of the Members shall be held, after the Applicant indicates that it has presented all information required above, has responded to all follow-up questions from the CACWG, and has complied with the requirements of Bylaw 5.5.
 
 Certificate Issuer applicants that are not actively issuing client authentication certificates but otherwise meet these membership criteria MAY request that the CACWG grant them an invitation for Associate Member status in accordance with Bylaw 3.1, subject to conditions designated by the CACWG.
 
@@ -167,6 +174,7 @@ Existing CA/Browser Forum Members seeking to participate in the CACWG, in accord
 4. **Dependencies and Liaisons**
 
    4.1 **CAB Forum Groups**
+
 The CACWG will coordinate with, and seek guidance from, the following other CAB Forum Working Groups:
 
 * Server Certificate Working Group, regarding the separation of Extended Key Usages, the transition of existing deployments, and the reuse of validation methods and certificate profile conventions.
@@ -175,6 +183,7 @@ The CACWG will coordinate with, and seek guidance from, the following other CAB 
 * Forum Infrastructure Subcommittee, regarding mailing lists, wiki, and publication of documents.
 
    4.2 **External Groups**
+
 This Working Group may coordinate with, and seek guidance from, the following outside organizations:
 * IETF, in particular working groups concerned with TLS, PKIX successors, and certificate management protocols.
 * The WebTrust Task Force and the Accredited Conformity Assessment Bodies' Council (ACAB'c), regarding audit criteria applicable to client authentication certificates.
@@ -200,10 +209,10 @@ The CACWG may establish subcommittees, by formal ballot, to address any of the C
 
 8. **IPR Policy**
 
-The CACW is subject to the current version of the CAB Forum Intellectual Rights Policy (the “IPR Policy”).
+The CACWG is subject to the current version of the CAB Forum Intellectual Rights Policy (the “IPR Policy”).
 
 To promote the widest adoption of the CAB Forum Guidelines, CAB Forum seeks to issue Final Guidelines and Final Maintenance Guidelines that can be implemented, according to the IPR Policy, on a CAB Forum Royalty-Free License basis. For information about exclusion of Essential Claims, see Section 4 of the IPR Policy.
 
 9. **About this Charter**
 
-This CACW Charter has been created according to Section 5.3.1 of the Bylaws of the CAB Forum. In the event of a conflict between this charter and any provision in either the Bylaws or the IPR Policy, the provision in the Bylaws or IPR Policy shall take precedence.
+This CACWG Charter has been created according to Section 5.3.1 of the Bylaws of the CAB Forum. In the event of a conflict between this charter and any provision in either the Bylaws or the IPR Policy, the provision in the Bylaws or IPR Policy shall take precedence.
